@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Simple landing page</title>
+  <title>Click-Click2C</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body id="body">
   <header id="header-section">
     <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
     <div class="container">
@@ -28,65 +28,67 @@
                     </button>
                 </li>
           <li class="nav-item">
-            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#features-section">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Forum</a>
+            <a class="nav-link" href="forum.html">Forum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
     </nav>
   </header>
-        <div class="banner langs">
-          <div class="container">
-            <h2 class="font-weight-semibold">Download 2C</h2>
-            <h6 class="font-weight-normal text-muted pb-3">Please select your preffered language:</h6>
-            <div>
-              <ul>
-                <li><a class="" href="#n">English</a></li>
-                <li><a class="" href="#n">English(kids)</a></li>
-                <li>  <a class="" href="#n">French</a></li>
-                <li>  <a class="" href="#n">French(kids)</a></li>
-                <li>  <a class="" href="#n">Arabic</a></li>
-                <li><a class="" href="#n">Arabic(Egyptian accent)</a></li>
-                <li>  <a class="" href="#n">Hebrew</a></li>
-              </ul>  
-            </div>
-          </div>
+    <div class="banner">
+      <div class="container">
+        <div id="download">
+          <h3 class="font-weight-semibold">Download 2C</h3>
+          <h6 class="font-weight-normal text-muted pb-3">Please select your preffered language:</h6><hr>
+          <ul>
+              <li><a class="" href="#n">English</a></li>
+              <li><a class="" href="#n">English(kids)</a></li>
+              <li><a class="" href="#n">French</a></li>
+              <li><a class="" href="#n">French(kids)</a></li>
+              <li><a class="" href="#n">Arabic</a></li>
+              <li><a class="" href="#n">Arabic(Egyptian accent)</a></li>
+              <li><a class="" href="#n">Hebrew</a></li>
+              <li><a class="" href="#n">Korean</a></li>
+              <li><a class="" href="#n">Spanish</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="sub">
+          <p class="text-muted">First 100 to subscribe will get a free Logitech mouse !</p>
+          <form> <input type="text" id="Email" placeholder="Email id">
+                <button class="btn btn-dark pt-3">Subscribe</button>
+          </form>
+      </div>
         </div>
   <div class="content-wrapper">
     <div class="container">
       <section class="contact-details" id="contact-details-section">
         <div class="row text-center text-md-left">
-          <div class="col-12 col-md-6 col-lg-4 grid-margin">
-                  <h5 class="pb-2">Our Guidelines</h5>
-                  <a href="#"><p class="m-0 pb-2">Terms</p></a>
-                  <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a>
-                  <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 grid-margin">
-                  <h5 class="pb-2">Our address</h5>
-                  <p class="text-muted"> Address can go here </p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 grid-margin">
-                  <h5 class="pb-2">Get in Touch</h5>
-                  <p class="text-muted">First 100 to subscribe will get a free Logitech mouse !</p>
-                  <form>
-                    <input type="text" class="form-control" id="Email" placeholder="Email id">
-                  </form>
-                  <div class="pt-3">
-                    <button class="btn btn-dark">Subscribe</button>
-                  </div>
-          </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                      <a href="#"><p class="m-0 pb-2">Terms</p></a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                      <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                      <a href="#" ><p class="m-0 pt-1 pb-2">Cookie policy</p></a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                      <p class="text-muted"> Address can go here </p>
+              </div>
         </div>
       </section>
+    </div>
+  </div>
       <footer class="border-top">
         <p class="text-center text-muted pt-4">Copyright © 2020-21- Click Click 2C - All rights reserved.</p>
       </footer>

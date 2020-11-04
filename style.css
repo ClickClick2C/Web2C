@@ -32,10 +32,6 @@
 }
 
 
-
-
-
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -46,12 +42,6 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
-}
-
-#main-ban{
-  height: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 
@@ -84,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 10;
+  margin-top: 0;
   margin-bottom: 1rem;
 }
 
@@ -98,12 +88,27 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
-.langs{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+.banner {
+  background-color: #f7f8fa;
+  text-align: center;
 }
 
+.container > #download{
+  text-align: left;
+  padding-left: 40px;
+}
+.banner ul{
+  list-style: none;
+}
+
+.banner li{
+  display: block;
+}
+
+#sub{
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+}
 
 address {
   margin-bottom: 1rem;
@@ -564,6 +569,7 @@ pre code {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -598,7 +604,7 @@ pre code {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -9571,10 +9577,6 @@ body.sidebar-open::before {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.banner {
-  background-color: #f7f8fa;
-  text-align: center;
-}
 .content-wrapper {
   padding: 55px 0px;
 }
