@@ -2240,7 +2240,7 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.625rem 1.25rem;
+  padding: 0.45rem 1.25rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.1875rem;
@@ -9968,7 +9968,7 @@ footer a:hover {
 .btn {
   font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;
-  padding: 0.625rem 1.25rem;
+  padding: 0.45rem 1.25rem;
   outline: none;
 }
 
